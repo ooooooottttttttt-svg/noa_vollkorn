@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #1A1F15;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #1A1F15;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.page {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.site-block {
+  position: relative;
+  width: 1440px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #E1DBCF;
+}
+
+.artwork {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 1440px;
+  max-width: none;
+  height: auto;
+}
+
+.block-shop {
+  height: 860px;
+}
+
+.artwork-shop {
+  top: 0;
+}
+
+.block-languages {
+  height: 1131px;
+}
+
+.artwork-languages {
+  top: -860px;
+}
+
+.block-specimen {
+  height: 848px;
+}
+
+.artwork-specimen {
+  top: -1991px;
+}
+
+.block-history {
+  height: 1862px;
+}
+
+.artwork-history {
+  top: -2839px;
+}
+
+.block-ending {
+  height: 1289px;
+}
+
+.artwork-ending {
+  top: -4701px;
+}
